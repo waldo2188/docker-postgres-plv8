@@ -14,7 +14,7 @@ This image includes EXPOSE 5432 (the postgres port), so standard container linki
 
 Remeber, you must activate this extension in each database where you want use it.
 
-`docker exec some-postgres psql -U postgres -c "CREATE EXTENSION IF NOT EXISTS plv8;"
+`docker exec some-postgres psql -U postgres -c "CREATE EXTENSION IF NOT EXISTS plv8;"`
 
 Now you can check if the extension is well activated :
 
